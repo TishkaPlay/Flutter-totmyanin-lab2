@@ -19,7 +19,7 @@ void main() {
               ),
               SizedBox(height: 20),
               Image.network(
-                'https://flutter.dev/images/flutter-logo-sharing.png',
+                'https://flutter.github.io/assets-for-api-docs/assets/widgets/owl.jpg',
                 width: 200,
                 height: 200,
               ),
