@@ -1,17 +1,57 @@
-# first_flutter_app
+# Flutter Lab 2: Знакомство с Flutter
 
-A new Flutter project.
+Простое Flutter-приложение для веб-платформы, созданное в рамках второй лабораторной работы. Демонстрирует базовые концепции фреймворка: виджеты, дерево виджетов, работу с состоянием и инструменты разработки в VS Code.
 
-## Getting Started
+## 👤 Автор
 
-This project is a starting point for a Flutter application.
+**ФИО**: TishkaaPlay
 
-A few resources to get you started if this is your first Flutter project:
+**Группа**: ИСП-232
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+**Дата**: 25.05.2026
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📸 Скриншот приложения
+
+![Работа приложения](first_flutter_app\img\step9_totmyanin.png)
+
+## 🛠 Стек технологий и версии
+
+- **Flutter:** 3.41.6
+- **Dart:** 3.11.4
+- **Платформа:** Web (Edge)
+- **IDE:** VS Code
+
+## 🚀 Как запустить
+
+1. **Клонировать репозиторий:**
+
+```bash
+   git clone <URL_вашего_репозитория>
+```
+
+2. **Перейти в папку проекта:**
+
+   `cd first_flutter_app`
+
+3. **Установить зависимости:**
+
+    `flutter pub get`
+
+4. **Запустить приложение в браузере:**
+
+    `flutter run -d Edge`
+
+5. **Горячие клавиши во время разработки:**
+
+- r — Hot Reload (быстрое обновление UI с сохранением состояния)
+- R — Hot Restart (полная перезагрузка приложения)
+- q — выход из режима запуска
+
+## 📚 Что изучили в лабораторной работе
+
+- Основы Flutter: создание проекта, структура папок и файлов, роль pubspec.yaml
+- Виджеты: различие между StatelessWidget и StatefulWidget, построение дерева виджетов
+- Базовые виджеты: MaterialApp, Scaffold, Container, Center, Text, BoxDecoration, LinearGradient
+- Инструменты разработки: Hot Reload vs Hot Restart, Flutter DevTools, Flutter Inspector
+- Работа с VS Code: CodeLens, Command Palette, рефакторинг кода (Wrap with Widget), настройка dart.lineLength
+- Git: инициализация репозитория, коммиты, пуш на GitHub
